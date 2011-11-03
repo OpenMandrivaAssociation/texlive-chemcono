@@ -1,3 +1,9 @@
+# revision 17119
+# category Package
+# catalog-ctan /macros/latex/contrib/chemcono
+# catalog-date 2010-02-21 19:20:01 +0100
+# catalog-license lppl
+# catalog-version 1.3
 Name:		texlive-chemcono
 Version:	1.3
 Release:	1
@@ -44,6 +50,7 @@ citation routines.
 %doc %{_texmfdistdir}/doc/latex/chemcono/chemcono.pdf
 %doc %{_texmfdistdir}/doc/latex/chemcono/chemcono.tex
 %doc %{_texmfdistdir}/doc/latex/chemcono/example.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ citation routines.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
