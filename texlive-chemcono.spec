@@ -6,7 +6,7 @@
 # catalog-version 1.3
 Name:		texlive-chemcono
 Version:	1.3
-Release:	5
+Release:	6
 Summary:	Support for compound numbers in chemistry documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chemcono
