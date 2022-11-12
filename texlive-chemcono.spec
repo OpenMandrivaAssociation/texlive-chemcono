@@ -5,8 +5,8 @@ Summary:	Support for compound numbers in chemistry documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chemcono
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemcono.r17119.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemcono.doc.r17119.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemcono.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemcono.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
