@@ -3,7 +3,7 @@ Version:	17119
 Release:	2
 Summary:	Support for compound numbers in chemistry documents
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chemcono
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/chemcono
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemcono.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemcono.doc.r%{version}.tar.xz
